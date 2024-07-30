@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Rabia's Portfolio</title>
+  <link rel="icon" href="Image/engineer.ico">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+</head>
+<style>
+  /* Style adjustments for better alignment and spacing */
+.section-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.sub-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.Features-paragraph {
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.Feature-svg-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.dev-icon li {
+  margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+  .section-heading {
+    font-size: 2rem;
+  }
+  
+  .sub-heading {
+    font-size: 1.8rem;
+  }
+  
+  .Features-paragraph {
+    font-size: 1rem;
+  }
+}
+
+  </style>
+<body class="container-fluid body_section">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light ">
+      <a class="navbar-brand brand-name" href="#">Rabia Imtiaz</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link headerachor" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link headerachor" href="Education.html">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link headerachor" href="skill.html">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link headerachor" href="Project.html">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link headerachor" href="contact.html">Contact Me</a>
+          </li>
+        </ul>
+    </nav>
+  </header>
+
+  <section id="Home">
+    <div class="row column1">
+      <div class="col-lg-6 col-md-6 first-image">
+        <img class="boyimage"
+          src="https://cdn.dribbble.com/users/1019864/screenshots/3079099/codeloop.gif" alt="">
+      </div>
+      <div class="col-lg-6 section-1">
+        <h1 class="Hello">Hey, I'm Rabia! Nice to meet ya. <span class="wave">👋</span></h1>
+        <p>Enthusiastic and driven Computer Science student with a strong interest in machine learning and mobile development.
+          Proficient in web development using PHP and .NET frameworks. Seeking internship opportunities to apply programming
+          skills and contribute to innovative projects in a dynamic tech environment.</p>
+
+        <div class=social_media_icon>
+        
+          <a class="btn" href="https://www.linkedin.com/in/rabia-imtiaz/" target=_blank>
+            <i class="fab fa-linkedin" aria-hidden="true"></i>
+          </a>
+          
+          <a class="btn" href="mailto:rabiaimtiaz203@gmail.com" target=_blank>
+            <i class="fab fa-google"></i>
+          </a>
+        </div>
+      </div>
+      <div class="Image-boy col-lg-6"><img class="boy" src="Image/Boy-image.png" alt=""></div>
+    </div>
+  </section>
+
+
+  <section id="Whatido">
+    <div class="container">
+      <h1 class="section-heading text-center mb-5">What I Do ?</h1>
+  
+      <!-- Web Development -->
+      <div class="row feature-1 align-items-center">
+        <div class="col-lg-6 order-lg-1">
+          <img class="Feature-svg-image img-fluid" src="Image/website.svg" alt="">
+        </div>
+        <div class="col-lg-6 order-lg-2">
+          <h2 class="sub-heading">Frontend Development</h2>
+          <ul class="dev-icon list-unstyled d-flex flex-wrap">
+            <li class="mr-3"><i class="fab fa-html5 fa-5x" style="color:#e34f26"></i></li>
+            <li class="mr-3"><i class="fab fa-css3-alt fa-5x" style="color:#1572b6"></i></li>
+            <li class="mr-3"><i class="fab fa-bootstrap fa-5x" style="color:#543b79"></i></li>
+            <li class="mr-3"><i class="fas fa-wind fa-5x" style="color:#06b6d4"></i></li>
+            <li class="mr-3"><i class="fab fa-js-square fa-5x" style="color:#f7df1e"></i></li>
+            <li class="mr-3"><i class="fab fa-node fa-5x" style="color:#679e63"></i></li>
+          </ul>
+          <div class="Data-Analytic">
+            <p class="Features-paragraph">
+              💻 Proficient in frontend technologies such as HTML5, CSS3, Bootstrap, Tailwind CSS, and jQuery.
+            </p>
+            <p class="Features-paragraph">
+              🎨 Experienced in crafting responsive and visually compelling user interfaces that enhance user experience.
+            </p>
+            <p class="Features-paragraph">
+              🚀 Skilled in optimizing web performance and ensuring cross-browser compatibility.
+            </p>
+            <p class="Features-paragraph">
+              🔍 Knowledgeable in UI/UX design principles to create intuitive and engaging designs.
+            </p>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Backend Development -->
+      <div class="row feature-2 align-items-center mt-5">
+        <div class="col-lg-6">
+          <img class="Feature-svg-image img-fluid" src="https://techtweekinfotech.com/wp-content/uploads/2024/05/about-full.gif" alt="Backend Developer GIF">
+        </div>
+        <div class="col-lg-6">
+          <h2 class="sub-heading">Backend Development</h2>
+          <ul class="dev-icon list-unstyled d-flex flex-wrap">
+            <li class="mr-3"><i class="fab fa-php fa-5x" style="color:#8892bf"></i></li>
+            <li class="mr-3"><i class="fab fa-dot-net fa-5x" style="color:#512bd4"></i></li>
+            <li class="mr-3"><i class="fas fa-database fa-5x" style="color:#00758f"></i></li>
+          </ul>
+          <div class="Data-Analytic">
+            <p class="Features-paragraph">
+              🖥️ Proficient in backend frameworks including ASP.NET MVC, ASP.NET Core MVC, and Rest API for building scalable
+              and secure applications.
+            </p>
+            <p class="Features-paragraph">
+              🛠️ Developed robust database solutions using MySQL and SQL Server, ensuring efficient data management and
+              performance optimization.
+            </p>
+            <p class="Features-paragraph">
+              🚀 Skilled in implementing authentication and authorization mechanisms to enhance application security.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="EducationAndInternship">
+    <div class="container">
+      <div class="row feature-4 align-items-center mt-5">
+        <div class="col-lg-6 order-lg-1">
+          <h2 class="sub-heading">
+            <i class="fas fa-graduation-cap fa-1x" style="color:#009688; margin-right: 15px;"></i>
+            <i class="fas fa-university fa-1x" style="color:#512bd4;"></i>
+            Academic Pursuit
+          </h2>
+          <div class="Data-Analytic">
+            <p class="Features-paragraph">
+              🎓 Pursuing Bachelor of Science in Computer Science from Dawood University of Engineering and Technology
+              (DUET), currently in 6th semester.
+            </p>
+            <p class="Features-paragraph">
+              📘 Concurrently pursuing Advanced Diploma in Software Engineering (ADSE II) from Aptech Learning Center,
+              currently in 4th semester, to enhance technical skills.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-6 order-lg-2">
+          <img class="Feature-svg-image img-fluid" src="https://vananservices.com/blog/wp-content/uploads/2022/03/Online-learning.gif" alt="Online Learning GIF">
+        </div>
+      </div>
+  
+      <div class="row feature-5 align-items-center mt-5">
+        <div class="col-lg-6 order-lg-1">
+          <h2 class="sub-heading">
+            <i class="fas fa-briefcase fa-1x" style="color:#17afb7"></i>
+            Summer Internship Pursuit
+          </h2>
+          <div class="Data-Analytic">
+            <p class="Features-paragraph">
+              💼 Actively seeking a summer internship opportunity to apply and further develop skills in a dynamic tech environment.
+            </p>
+            <p class="Features-paragraph">
+              🌟 Motivated to contribute to innovative projects and gain practical experience in software development.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-6 order-lg-2">
+          <img class="Feature-svg-image img-fluid" src="https://camo.githubusercontent.com/7de37139d0b4c1ce40865e799b446c0e963a3dd8fb68d239707237c40604fa3d/68747470733a2f2f63646e2e6472696262626c652e636f6d2f75736572732f3733303730332f73637265656e73686f74732f363538313234332f6176656e746f2e676966" alt="Second Image">
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+  
+
+  <footer class="footer">
+    <div class="container">
+      <p class="text-center">© 2024 Rabia Imtiaz. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
